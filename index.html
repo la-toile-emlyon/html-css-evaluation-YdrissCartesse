@@ -10,53 +10,68 @@
 
 <body>
     <nav>
-        <div>
-            <img id="logo" src="logo.png" alt="logo du site">
-
-        </div>
-        <div>
-            <ul class="link">
-                <li><a href="link">Lien 1</a></li>
-                <li><a href="link">Lien 2</a></li>
-                <li><a href="link">Lien 3</a></li>
-                <li><a href="#' class="button">Contact </a></li>
-        </div>
-    </nav>
-    <header>
-        <div>
+        <div class="nav-container">
             <div>
-                <h1>Léo Vanel Motion</h1>
-                <p> Donner vie à vos idées par le mouvement</p>
-                <p><a href="Cta Principal "></a>
-                <p><a href="Cta Secondaire "></a></p>
+                <img id="logo" src="logo.png" alt="logo du site">
+
+            </div>
+            <div>
+                <ul id="link">
+                    <li><a href="link">Lien 1</a></li>
+                    <li><a href="link">Lien 2</a></li>
+                    <li><a href="link">Lien 3</a></li>
+                    <li><a href="#" class="button">Contact </a></li>
+            </div>
+        </div>
+
+    </nav>
+
+    <header id="hero">
+        <div class="header-container">
+            <h1>Léo Vanel Motion</h1>
+            <p> Donner vie à vos idées par le mouvement</p>
+            <div class="button-container">
+                <a class="button-left" href="#">Votre devis sous 24h</a>
+                <a class="button-right" href="#">Voir mes projets</a>
+            </div>
+        </div>
+
+        <img class="couverture-image" src="couverture.png" alt="#">
+    </header>
+
+    <main>
+        <section id="arguments">
+            <article>
+                <h2>Arguments Clients</h2>
+                <p>Une vision artistique et professionnelle au service de votre communication.
+                </p>
+            </article>
+
+            <div class="arguments-container">
+                <div class="arguments-left">
+                    <img src="promesse.png" alt="promesses">
+                </div>
+                <div class="arguments-right">
+                    <ul>
+                        <li> Un style d'animation fluide et expressif, adapté à chaque univers de marque</li>
+                        <li> Une écoute attentive pour comprendre vos besoins et votre ton</li>
+                        <li> Des livrables optimisés pour les réseaux sociaux, le web ou la diffusion grand écran</li>
+                        <li> Un workflow agile pour une production rapide et collaborative</li>
+                    </ul>
+                    <div class="button-container">
+                        <a class="button-left" href="#">Votre devis sous 24h</a>
+                    </div>
+                </div>
+
+
             </div>
 
-        </div>
-        <div>
-            <img src="couverture.png" alt="#">
-        </div>
+        </section>
 
-    </header>
-    <main>
-        <h2>Arguments Clients</h2>
-        <p>Une vision artistique et professionnelle au service de votre communication.
-        </p>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-        <div>
-            <ul>
-                <li>• Un style d'animation fluide et expressif, adapté à chaque univers de marque</li>
-                <li>• Une écoute attentive pour comprendre vos besoins et votre ton</li>
-                <li>• Des livrables optimisés pour les réseaux sociaux, le web ou la diffusion grand écran</li>
-                <li>• Un workflow agile pour une production rapide et collaborative</li>
-            </ul>
-            <a href="Primary button"></a>
-        </div>
-        <section>
+        <section id="service-proposes">
+
             <h2>Mettez vos idées en mouvement avec des animations sur mesure</h2>
+            <div></div>
             <article><img src="#" alt="#">
                 <h3>Animation 2D / 3D
                 </h3>
@@ -64,7 +79,7 @@
                     présentations professionnelles.</p>
                 <a href=""></a>
             </article>
-            <article><img src="#" alt="#">
+            <!-- <article><img src="#" alt="#">
                 <h3>Vidéo explicative</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 <a href=""></a>
@@ -73,9 +88,11 @@
                 <h3>Identité animée</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 <a href=""></a>
-            </article>
+            </article> -->
         </section>
+
         <section>
+
             <h2>Projets</h2>
             <div>
                 <img src="atelier-nimbus.png" alt="Projet 1">
